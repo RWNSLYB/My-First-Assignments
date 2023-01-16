@@ -1,0 +1,6 @@
+function computeTip(totalBill){
+        let Tip = (totalBill * 0.01);
+    return Tip;
+}
+
+console.log(computeTip(10000))

@@ -1,0 +1,4 @@
+let SamWantsToSave = 10000; // Sam Wants to save Php 10,000 
+let AlreadySaved = 7500;
+let PercentageLeft = ((1-(AlreadySaved/SamWantsToSave))) * 100;
+console.log(`Thank you for your discipline and hardwork, Sam! You are now ${PercentageLeft}% away from your goal of saving ${SamWantsToSave}.`);
