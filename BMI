@@ -1,0 +1,5 @@
+//Body Mass Index
+let weight = 100;
+let height = 1.65;
+
+console.log(weight/(height*height));
